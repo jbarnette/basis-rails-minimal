@@ -1,2 +1,2 @@
 require ::File.expand_path('../config/environment',  __FILE__)
-run BasisRailsMinimal::Application
+run [%= my.classname %]::Application

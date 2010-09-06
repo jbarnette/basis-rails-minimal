@@ -1,4 +1,4 @@
-BasisRailsMinimal::Application.configure do
+[%= my.classname %]::Application.configure do
   config.action_controller.perform_caching      = false
   config.action_dispatch.best_standards_support = :builtin
   config.action_mailer.raise_delivery_errors    = false

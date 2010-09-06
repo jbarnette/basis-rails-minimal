@@ -4,7 +4,7 @@ require File.expand_path("../boot", __FILE__)
   require "#{framework}/railtie"
 end
 
-module BasisRailsMinimal
+module [%= my.classname %]
   class Application < Rails::Application
     config.encoding           = "utf-8"
     config.filter_parameters += [:password]

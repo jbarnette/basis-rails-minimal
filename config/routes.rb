@@ -1,2 +1,2 @@
-BasisRailsMinimal::Application.routes.draw do
+[%= my.classname %]::Application.routes.draw do
 end
